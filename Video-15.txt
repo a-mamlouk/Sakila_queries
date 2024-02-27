@@ -1,0 +1,3 @@
+Select rental_duration, count(rental_duration) from film
+group by rental_duration
+;

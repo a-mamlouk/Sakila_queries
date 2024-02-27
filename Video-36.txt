@@ -1,0 +1,18 @@
+Delete from lien
+where id != 1;
+37/
+alter table lien
+add column active boolean
+;
+//
+alter table lien
+drop column active
+;
+//
+alter table lien
+Rename Column name to nom
+;
+//
+alter table lien
+rename to table des website
+;

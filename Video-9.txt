@@ -1,0 +1,2 @@
+Select customer_id, amount from sakila.payment
+where amount not between 0 and 2;

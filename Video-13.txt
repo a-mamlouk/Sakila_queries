@@ -1,0 +1,4 @@
+Select  staff_id, count(*) from sakila.payment
+group by staff_id
+order by 2 desc
+;

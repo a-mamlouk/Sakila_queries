@@ -1,0 +1,1 @@
+Select * from sakila.payment where amount=10.99 or amount=7.99;

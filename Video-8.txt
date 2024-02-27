@@ -1,0 +1,3 @@
+Select customer_id,rental_id,return_date from sakila.rental
+where  customer_id NOT IN (1,4,20)
+order by return_date DESC ;

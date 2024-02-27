@@ -1,0 +1,21 @@
+create table lien(
+ID serial primary key,
+URL varchar(255) not null,
+name varchar(255) not null,
+description varchar(255)
+)
+;
+//
+insert into lien (url,name)
+values('www.google.fr', 'google')
+;
+//
+insert into lien (url,name)
+values 	('amazon.fr', 'amazon france'),
+		('figaro.fr', 'figaro France')
+;
+//
+insert into lien_copy
+select * from lien
+where name = 'google'
+;

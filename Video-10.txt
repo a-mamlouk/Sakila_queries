@@ -1,0 +1,2 @@
+Select customer_id, amount , payment_date from sakila.payment
+where payment_date not between '2005-06-01' and '2005-07-31';

@@ -1,0 +1,6 @@
+Select rating, round(avg(rental_rate),2)
+From film
+where rating in ('PG','R','G')
+group by rating
+having avg(rental_rate)<3
+;

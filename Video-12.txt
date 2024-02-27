@@ -1,0 +1,4 @@
+Select  customer_id, round(avg(amount),3)  from sakila.payment
+group by customer_id
+order by 2 desc
+;

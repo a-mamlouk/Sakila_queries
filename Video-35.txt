@@ -1,0 +1,10 @@
+update lien
+set description = 'moteur de recherche'
+where name = 'google'
+;
+// dont forget to disable preferences that blocks update in edit
+
+//
+update lien
+set description = 'description manquante'
+;

@@ -1,0 +1,1 @@
+Select count(distinct amount) as 'nombre de ligne(s)' from sakila.payment;

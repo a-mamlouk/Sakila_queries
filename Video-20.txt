@@ -1,0 +1,16 @@
+Select c.customer_id, c.first_name,c.last_name,a.actor_id,a.first_name,a.last_name
+From customer c
+inner join actor a
+ON c.last_name=a.last_name
+;
+//
+Select sakila.customer.customer_id, first_name,last_name, email,amount,payment_date
+from customer
+inner join payment ON payment.customer_id = customer.customer_id
+;
+//Select sakila.customer.customer_id, first_name,last_name, email,amount,payment_date
+from customer
+inner join payment ON payment.customer_id = customer.customer_id
+where first_name like 'h%'
+order by customer.customer_id desc
+;
